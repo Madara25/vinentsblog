@@ -1,0 +1,43 @@
+title: BLOG - Vincent Chu
+email: vincents9825@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  一只萌新
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://madara25.github.io/vinentsblog/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Vincent Chu # add your name
+author-pic: headpost.jpg
+about-author: I'm Vincent,a student majoring in Computer Science in UNSW and a Dota2 fans.
+# Contact links
+email: vincents9825@gmail.com # Add your Email address
+website: madara25.github.io/vinentsblog # Add your website, do not add http://
+github: madara25 # Add your Github handle
+twitter: '@vincents9825' # Add your Twitter handle
+weibo: '@苏之轼'# Add your Facebook handle
+instagram: '@v1ncent.1' # Add your Instagram handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
